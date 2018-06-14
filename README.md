@@ -1,25 +1,23 @@
-## Project Name:  Expense Calculator Application
+## Project Name:  Tax Bracket Calculator Application
 
 ### Course Title:
 Web Application Development
 
 ### Assignment Date:  
-(Month Day, Year)
+(6/13/18)
 
 ### Student Name:  
-(First and Last Name)
+(Pedro Fontanez)
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+(In this week’s assignment I updated areas of JavaScript to reach results for a calculator. This calculator has number values and marriage status to see what percentage you should receive from a tax return.)
 
 ### View Project:
-(Replace this statement with your GitHub Page URL that was created when you 
+(Replace this statement with your Github Page URL that was created when you 
  published the project.)
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
-
-
+1. (Learned about if/else statements)
+2. (Learned about Loop statements)
+3. (Learned about different functions)
 

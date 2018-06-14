@@ -1,5 +1,4 @@
-/*
-    Filename: styles.css
+/*  Filename: styles.css
 */
 
 
@@ -44,164 +43,162 @@ body {
    background: white;
    margin: 0 auto;
    font-family: Arial, Helvetica, sans-serif; 
+   -webkit-box-shadow: 10px 0px 10px rgba(50, 50, 50, 1),
+                       0px 10px 10px rgba(50, 50, 50, 1),
+                       -10px 0px 10px rgba(50, 50, 50, 1);
+   -moz-box-shadow:    10px 0px 10px rgba(50, 50, 50, 1),
+                       0px 10px 10px rgba(50, 50, 50, 1),
+                       -10px 0px 10px rgba(50, 50, 50, 1);
+   box-shadow:         10px 0px 10px rgba(50, 50, 50, 1),
+                       0px 10px 10px rgba(50, 50, 50, 1),
+                       -10px 0px 10px rgba(50, 50, 50, 1);
 }
 
 ol, ul {
    list-style: none;
 }
 
-
-
-
 /* page header */
 header {
-   background: #93AD78;
+   background: #04819E;
    width: 100%;
-   color: black;
+   color: #FFFFFF;
    font-size: 48px;
    text-align: center;
    line-height: 1.5em;
    border-bottom: 1px solid black;
-   border-left: 1px solid black;
-   border-right: 1px solid black;
 }
 
 /* main content */
 article {
    width: 960px;
-   text-align: center;
-   background: white;
-   padding-bottom: 20px;
-   border-bottom: 1px solid black;
-   border-left: 1px solid black;
-   border-right: 1px solid black;
+   text-align: left;
+   background: ivory;
+   padding: 20px;
 }
 
-article h2 {
+h2 {
    font-weight: bold;
    font-size: 30px;
-   padding: 10px;
-   color:#930505;
-}
-article h3 {
-   font-weight: bold;
-   font-size: 18px;
-   padding: 8px;
+   text-align: center;
 }
 
-article button {
-   font-weight: bold;
-   font-size: 20px;
+#errorMessage {
+   display: none;
+   width: 80%;
+   text-align: center;
    padding: 10px;
+   margin: 15px auto 5px;
+   background: #e3d5ba;
+   color: black;
+   border: 5px solid rgb(190,50,38);
+   font-weight: bold;
 }
+
+
 /* form */
+form {
+   padding: 10px;
+}
 
+fieldset {
+   margin-bottom: 10px;
+   position: relative;
+   padding: 2.5em 1em 0.5em 1em;
+   background: #e3d5ba;
+}
+
+fieldset fieldset {
+   padding-top: 15px;
+}
+
+legend, #submit, #instrlabel {
+   font-family: arial, helvetica, sans-serif;
+   font-weight: bold;
+}
+
+legend {
+   position: absolute;
+   top: 0;
+   left: 0;
+   font-size: 1.25em;
+   margin-top: 0.5em;
+   margin-left: 0.5em;
+}
+
+fieldset fieldset legend {
+   font-size: 1em;
+   margin-top: 25px;
+   top: -30px;
+   left: 8px;
+}
+
+input, textarea {
+   font-size: .8em;
+}
+
+#instructions {
+   display: block;
+}
+
+#deliveryinfo, #orderinfo, #additionalinfo, #submitbutton {
+   border: none;
+}
+
+#deliveryinfo label {
+   display: block;
+   float: left;
+   clear: left;
+   margin-top: 5px;
+}
+
+#deliveryinfo input {
+   display: block;
+   margin-left: 130px;
+}
+
+#nameinput, #emailinput, #addrinput {
+   width: 30em;
+}
+
+#incomeInput {
+   width: 10em;
+}
+
+#incomeInput label {
+   margin-right: 25px;
+    padding: 0.5em 0 0 0;
+}
+
+#instrlabel {
+   display: block;
+   margin: 1em 0 0.5em 0;
+}
+
+#submitBtn, #clearBtn {
+   font-size: 1.25em;
+}
+
+#submitbutton {
+   background: inherit;
+   border: none;
+   padding: 0.5em 0 0 0;
+   text-align: center;
+}
+#submitbutton {
+   background: inherit;
+   border: none;
+   padding: 0.5em 0 0 0;
+   text-align: center;
+}
+#inputIncome {
+   background: inherit;
+   border: none;
+   padding: 0.5em 0 0 0;
+   text-align: center;
+}
 
 b {
-   font-weight: bold;
-
-}
-
-legend, #calculatebutton input {
-  font-family: georgia, "times new roman", times, serif;
- 
-
-  }
-fieldset {
-  margin-bottom: 10px;
-  position: relative;
-  padding: 2.5em 1em 0.5em 1em;
-  background: #93AD78;
-  text-align: left;
    
-  }
-fieldset fieldset {
-  padding-top: 5px;
-  border: 2px solid #082008;
-  }
-form {
-  background: #082008;
-  padding: 10px 5px 7px 5px;
-  margin: 0 auto;
-  width: 850px;
-  }
-input, textarea {
-  font-size: 1em;
-   vertical-align: right;
-   
-  }
-input:focus, textarea:focus {
-  background: #e3d5ba;
-  }
-.textbox {
-    width: 300px;
-    float: right;
+   font-weight:  bold;
 }
-legend span {
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-size: 1.25em;
-  margin-top: 0.5em;
-  margin-left: 0.5em;
-  font-weight: bold;
-  color:#930505;
-  }
-legend  {
-
-  font-weight: bold;
-  }
-textarea {
-  display: block;
-  }
-#employeeinfo {
-  float: left;
-  width: 45%;
-  font-size: 20px;
-  }
-#calculationinfo {
-  float: inherit;
-  width: 60%;
-  font-size: 20px;
-  
-  }
-#inputinfo, #summary, #calculatebutton {
-  border: none;
-  }
-#inputinfo label {
-  display: block;
-  position: relative;
-  margin: 25px 0;
-  line-height: 200%;
-  font-size: 20px;
-  }
-  }
-#inputinfo input {
-  position: absolute;
-  left: 600px;
-  line-height: 150%;
-  }
-#summary label {
-  display: block;
-  position: relative;
-  margin: 25px 0;
-    line-height: 200%;
-    font-size: 20px;
-  }
-#shelterInput, #foodInput, #householdInput, #miscellaneousInput, #transportationInput {
-  width: 5em;
-  position: absolute;
-  right: 80px;
-
-
-  }
-#phoneinput {
-  width: 12em;
-  }
-#calculatebutton {
-  border: 5px;
-  background: #93AD78;
-  padding: 0.5em 0;
-  margin-bottom: 0;
-  text-align: center;
-  }
